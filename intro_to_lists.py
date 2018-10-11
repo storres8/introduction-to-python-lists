@@ -10,5 +10,12 @@ print(new_list)
 # all in the same list
 
 print(new_list[1])
-# prints out 100 since thats is the second value in my list
+# prints out 100 since thats is the second value in my list AKA indexing
+
 print(new_list[0:3])
+print(new_list[0:])
+# both print out the entire list AKA slicing
+
+# we can also concatinate lists
+list_2=[4,5,6]
+print(my_list+list_2)
